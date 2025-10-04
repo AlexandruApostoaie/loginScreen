@@ -197,21 +197,16 @@ a {
 
 @media (max-width: 480px) {
   body {
-    background-color: #f7faff;
-    padding: 16px;
+    padding: 14px;
   }
 
   .card-container {
-    width: 100%;
-    max-width: 448px;
     height: auto;
     min-height: 603px;
-    margin: 0 auto;
   }
 
   .card-header {
     grid-template-columns: 1fr;
-    width: auto;
     padding: 20px;
   }
 
@@ -232,10 +227,6 @@ a {
   .card-header-logo {
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .divider {
-    margin: 20px;
   }
 
   .footer-text {
