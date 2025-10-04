@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Login Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="card-container">
+      <div class="card-header">
+        <div class="card-header-logo">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-building-icon lucide-building"
+          >
+            <path d="M12 10h.01" />
+            <path d="M12 14h.01" />
+            <path d="M12 6h.01" />
+            <path d="M16 10h.01" />
+            <path d="M16 14h.01" />
+            <path d="M16 6h.01" />
+            <path d="M8 10h.01" />
+            <path d="M8 14h.01" />
+            <path d="M8 6h.01" />
+            <path d="M9 22v-3a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v3" />
+            <rect x="4" y="2" width="16" height="20" rx="2" />
+          </svg>
+        </div>
+        <div class="card-header-text">
+          <h4 class="card-header-welcome-text">Welcome back</h4>
+          <p class="card-header-sign-text">
+            Sign in to your account to continue
+          </p>
+        </div>
+      </div>
+
+      <div class="card-content">
+        <form>
+          <div class="email">
+            <label for="email-label">Email address</label><br />
+            <div class="input-container">
+              <i class="fa-regular fa-envelope"></i>
+              <input
+                type="text"
+                id="email-input"
+                name="email-input"
+                placeholder="Enter your email"
+              />
+            </div>
+          </div>
+
+          <div class="password">
+            <label for="password-label">Password</label><br />
+            <div class="input-container">
+              <i class="fa-solid fa-lock"></i>
+              <input
+                type="text"
+                id="password-input"
+                name="password-input"
+                placeholder="Enter your password"
+              />
+            </div>
+          </div>
+
+          <div class="buttons">
+            <label>
+              <input
+                type="checkbox"
+                name="remember-me"
+                value="remember"
+                class="remember-me"
+              />
+              <span class="remember-me">Remember me</span>
+            </label>
+
+            <a href="#">Forgot password?</a>
+          </div>
+
+          <button class="sign-button">Sign in</button>
+        </form>
+      </div>
+
+      <div class="divider">
+        <span class="or">OR</span>
+      </div>
+
+      <div class="google-div">
+        <button class="google-button">
+          <i class="fa-brands fa-google"></i>
+          Continue with Google
+        </button>
+      </div>
+
+      <div class="footer-text">
+        <span class="no-account">Don't have an account? </span>
+        <a href="#" class="signup">Sign up</a>
+      </div>
+    </div>
+  </body>
+</html>
